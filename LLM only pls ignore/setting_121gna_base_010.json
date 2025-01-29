@@ -1,0 +1,174 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7651471283297628520
+  },
+  "m_Name": "setting_121gna_base_010",
+  "fixToFps30": 0,
+  "flipCharaPos": 0,
+  "floorYHeight": 0.0,
+  "timelineScriptPath": "DATA/pack_da121_gna_00/timeline/timeline_121gna_base_010.asset",
+  "cameraBoneName": "BoneCamera",
+  "cameraPrefabPath": "DATA/pack_da121_gna_00/camera/prefab/prefab_cam_121gna_base_010.prefab",
+  "viewSliceCameras": [
+    {
+      "cameraBoneName": "BoneCamera",
+      "cameraPrefabObjPath": "DATA/pack_da121_gna_00/camera/prefab/prefab_cam_121gna_base_010_viewslice00.prefab"
+    },
+    {
+      "cameraBoneName": "BoneCamera",
+      "cameraPrefabObjPath": "DATA/pack_da121_gna_00/camera/prefab/prefab_cam_121gna_base_010_viewslice01.prefab"
+    },
+    {
+      "cameraBoneName": "BoneCamera",
+      "cameraPrefabObjPath": "DATA/pack_da121_gna_00/camera/prefab/prefab_cam_121gna_base_010_viewslice02.prefab"
+    }
+  ],
+  "charaFootLBoneName": "go_L_foot_shadow",
+  "charaFootRBoneName": "go_R_foot_shadow",
+  "charaFacialBoneName": "j_head",
+  "charaPackList": [
+    {
+      "vPos": {
+        "x": 1000.0,
+        "y": 1000.0,
+        "z": 1000.0
+      },
+      "pMotionFbxPath_DANCE": "DATA/pack_da121_gna_00/motion_chara/common/l_chmot_00_gna121_0001_e03_common_001_ani.anim",
+      "pMotionFbxPath_FACIAL": "",
+      "fMotionFrameOffset_DANCE": 3.0,
+      "fMotionFrameOffset_FACIAL": 0.0
+    },
+    {
+      "vPos": {
+        "x": 0.0,
+        "y": 0.05,
+        "z": 0.0
+      },
+      "pMotionFbxPath_DANCE": "DATA/pack_da121_gna_00/motion_chara/common/t_chmot_00_gna121_0001_e01_common_001_ani.anim",
+      "pMotionFbxPath_FACIAL": "",
+      "fMotionFrameOffset_DANCE": 2.0,
+      "fMotionFrameOffset_FACIAL": 0.0
+    },
+    {
+      "vPos": {
+        "x": 0.0,
+        "y": 0.05,
+        "z": 0.0
+      },
+      "pMotionFbxPath_DANCE": "DATA/pack_da121_gna_00/motion_chara/common/l_chmot_00_gna121_0001_e02_common_001_ani.anim",
+      "pMotionFbxPath_FACIAL": "",
+      "fMotionFrameOffset_DANCE": 0.0,
+      "fMotionFrameOffset_FACIAL": 0.0
+    },
+    {
+      "vPos": {
+        "x": 0.0,
+        "y": 0.05,
+        "z": 0.0
+      },
+      "pMotionFbxPath_DANCE": "DATA/pack_da121_gna_00/motion_chara/common/l_chmot_00_gna121_0001_e03_common_001_ani.anim",
+      "pMotionFbxPath_FACIAL": "",
+      "fMotionFrameOffset_DANCE": -2.0,
+      "fMotionFrameOffset_FACIAL": 0.0
+    },
+    {
+      "vPos": {
+        "x": 1000.0,
+        "y": 1000.0,
+        "z": 1000.0
+      },
+      "pMotionFbxPath_DANCE": "DATA/pack_da121_gna_00/motion_chara/common/t_chmot_00_gna121_0001_e02_common_001_ani.anim",
+      "pMotionFbxPath_FACIAL": "",
+      "fMotionFrameOffset_DANCE": -3.0,
+      "fMotionFrameOffset_FACIAL": 0.0
+    }
+  ],
+  "stagePackDirectory": "STAGE/base_010/",
+  "stagePrefab_BASE": [
+    "00_base/base_010_base0.prefab",
+    "00_base/base_010_base1_truss.prefab",
+    "00_base/base_010_base2_floor.prefab",
+    "00_base/base_010_base3_speaker_light.prefab",
+    "00_base/base_010_base4_others.prefab"
+  ],
+  "stagePrefab_LIGHT": [],
+  "stagePrefab_UVANIM": [],
+  "stagePrefab_SCREEN": [
+    "03_screen/base_010_screen0.prefab",
+    "03_screen/base_010_screen1.prefab",
+    "03_screen/base_010_screen2.prefab"
+  ],
+  "stagePrefab_CYALUME": [],
+  "stagePrefab_ORDERLIGHT": [
+    "05_order_light/base_010_order_light0.prefab",
+    "05_order_light/base_010_order_light1.prefab",
+    "05_order_light/base_010_order_light2.prefab",
+    "05_order_light/base_010_order_light3.prefab",
+    "05_order_light/base_010_order_light4.prefab",
+    "05_order_light/base_010_order_light5.prefab",
+    "05_order_light/base_010_order_light6.prefab",
+    "05_order_light/base_010_order_light7.prefab",
+    "05_order_light/base_010_order_light8.prefab",
+    "05_order_light/base_010_order_light9.prefab",
+    "05_order_light/base_010_order_light10.prefab",
+    "05_order_light/base_010_order_light11.prefab",
+    "05_order_light/base_010_order_light12.prefab",
+    "05_order_light/base_010_order_light13.prefab",
+    "05_order_light/base_010_order_light14.prefab"
+  ],
+  "stageDecoPackDir": "STAGE_DECO/deco_121/",
+  "stageDeco_BASE": [
+    "deco_121_base_010/00_base/deco_121_base0_stagefx.prefab"
+  ],
+  "stageDeco_LIGHT": [],
+  "stageDeco_UVANIM": [],
+  "stageDeco_SCREEN": [],
+  "stageDeco_CYALUME": [
+    "deco_121_base_010/04_cyalume/deco_121_signlight.prefab"
+  ],
+  "stageDeco_ORDERLIGHT": [
+    "deco_121_base_010/05_order_light/deco_order_light0_uq.prefab"
+  ],
+  "stageHideObjects": [],
+  "BackScreen_FXPath": [
+    "DATA/pack_da121_gna_00/fx_screen/fx_screen_gna_0.prefab",
+    "DATA/pack_da121_gna_00/fx_screen/fx_screen_gna_1.prefab",
+    "DATA/pack_da121_gna_00/fx_screen/fx_screen_gna_2.prefab",
+    "DATA/pack_da121_gna_00/fx_screen/fx_screen_gna_3.prefab"
+  ],
+  "BackScreen_TexPath": [
+    "DATA/pack_da121_gna_00/fx_screen/lowres/fx_screen_low_gna_0.png",
+    "DATA/pack_da121_gna_00/fx_screen/lowres/fx_screen_low_gna_1.png",
+    "DATA/pack_da121_gna_00/fx_screen/lowres/fx_screen_low_gna_2.png",
+    "DATA/pack_da121_gna_00/fx_screen/lowres/fx_screen_low_gna_3.png"
+  ],
+  "BackScreen_CamAnimPath": "DATA/pack_da121_gna_00/camera/prefab/prefab_cam_121gna_base_010.prefab",
+  "circlingFX_Tex": [
+    "DATA/pack_da121_gna_00/fx_texture/tx_121gna_fxshape01.png",
+    "DATA/pack_da121_gna_00/fx_texture/tx_121gna_fxshape02.png",
+    "DATA/pack_da121_gna_00/fx_texture/tx_121gna_fxshape03.png",
+    "DATA/pack_da121_gna_00/fx_texture/tx_121gna_fxshape04.png",
+    "DATA/pack_da121_gna_00/fx_texture/tx_121gna_fxshape05.png",
+    "DATA/pack_da121_gna_00/fx_texture/tx_121gna_fxshape06.png",
+    "DATA/pack_da121_gna_00/fx_texture/tx_121gna_fxshape07.png"
+  ],
+  "fallingFX_Tex": [
+    "DATA/pack_da121_gna_00/fx_texture/tx_fx_falling_001.png"
+  ],
+  "effect_INTRO": {
+    "pPrefab2D_Path": "DATA/pack_da121_gna_00/intro/intro_121gna.prefab",
+    "fStartTime": 0.0,
+    "fDuration": 3.8
+  },
+  "animOffset": {
+    "enable_DANCE": 0,
+    "enable_FACIAL": 0,
+    "offsetType": 2
+  }
+}
