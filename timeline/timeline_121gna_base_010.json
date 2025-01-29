@@ -1,0 +1,938 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7760877487534789743
+  },
+  "m_Name": "timeline_121gna_base_010",
+  "pKeyframes": [
+    {
+      "sFrame": 1,
+      "sSamplingRate": 60,
+      "pCommandText": "//pack_da017_gou_bpm182_base_001\n//CC1\n//camera\r\ncamera pers=30\ncameraOffsetY charaId=none\n\nstageOrderLight id=8, colors=FFFFFF0A, duration=0.0, easeInOut=false, easeVal=2.0\n\n//chara\nchara id=all, color=000000FF\n\n//stageBase\nstageBase id=all, color=000000FF\n\n//stageUvanim\nstageUvanim id=all, color=000000FF\n\n//stageBackscr\nstageBackscr id=all, color=000000FF\n\n//Change FX Id for Camera Static\ncameraRT fxId=0\n\n//stageOrderLight\nstageOrderLight id=all, colors=00000000, duration=0.001, easeInOut=True, easeVal=0\n\n//stageCyalume\ncyalume animId=0, animTimeReset=true\ncyalume Id=all, duration=0, startAlphaBoost=0, alphaBoost=0\n",
+      "fSecond": 0.016666668
+    },
+    {
+      "sFrame": 180,
+      "sSamplingRate": 60,
+      "pCommandText": "//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=3, startIntensity=0, intensity=0.4, startThreshold=0.6, threshold=0.4, startSoftThreshold=0.5, softThreshold=0.68, startColor=AFFF9EFF, color=AFFF9EFF\n\n//chara\nchara id=all, color=646464FF, duration=3, easeInOut=True, easeVal=0\n\n//stageBase\nstageBase id=all, color=232621FF, duration=3, easeInOut=True, easeVal=0\n\n//stageUvanim\nstageUvanim id=all, color=FFFFFFFF duration=3, easeInOut=True, easeVal=0\n\n//stageBackscr\nstageBackscr id=all, color=FFFFFFFF, duration=3, easeInOut=True, easeVal=0\n\n//stageCyalume\ncyalume Id=all, duration=3, startAlphaBoost=0, alphaBoost=1\n\n\n//stageOrderLight\nstageOrderLight id=0, colors=4F4F4FFF, duration=3, easeInOut=True, easeVal=0\nstageOrderLight id=1, colors=000000FF, duration=3, easeInOut=True, easeVal=0\nstageOrderLight id=2, colors=000000FF, duration=3, easeInOut=True, easeVal=0\nstageOrderLight id=3, colors=000000FF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=4, colors=394937FF, duration=3, easeInOut=True, easeVal=0\nstageOrderLight id=5, colors=000000FF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=6, colors=000000FF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=7, colors=000000FF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=8, colors=000000FF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=9, colors=000000FF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=10, colors=000000FF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=11, colors=252D22FF, duration=3, easeInOut=True, easeVal=0\nstageOrderLight id=12, colors=000000FF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=13, colors=000000FF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=14, colors=2A2B20FF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=11160DFF, duration=3, easeInOut=True, easeVal=0",
+      "fSecond": 3.0
+    },
+    {
+      "sFrame": 465,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC2\n//camera\ncamera pers=14.4\ncamera effect=dof, focal=19.5, blur=1\ncameraOffsetF charaId=2, focusX=-0.03, focusY=0, focusZ=2.69\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=3, firstReduction=true, duration=0, startIntensity=0.3, intensity=0.3, startThreshold=0.65, threshold=0.65, startSoftThreshold=0.68, softThreshold=0.68, startColor=AFFF9EFF, color=AFFF9EFF\n",
+      "fSecond": 7.75
+    },
+    {
+      "sFrame": 528,
+      "sSamplingRate": 60,
+      "pCommandText": "//cameraBloom\ncameraBloom enabled=true, samplingCount=3, firstReduction=true, duration=1, startIntensity=0.3, intensity=0.4, startThreshold=0.4, threshold=0.51, startSoftThreshold=0.68, softThreshold=0.81, startColor=D2FFC9FF, color=D2FFC9FF\n\n//chara\nchara id=all, color=CDCBBDFF, duration=1, easeInOut=True, easeVal=0\n\n//stageBase\nstageBase id=all, color=3E443BFF, duration=1, easeInOut=True, easeVal=0\n\n//stageOrderLight\nstageOrderLight id=2, colors=88A376FF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=3, colors=C3D887FF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=7, colors=FDFFBAFF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=13, colors=181915FF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=232E1BFF, duration=1, easeInOut=True, easeVal=0",
+      "fSecond": 8.8
+    },
+    {
+      "sFrame": 596,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC3\n//camera\ncamera pers=25\ncamera effect=none\ncameraOffsetY charaId=none\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0, startIntensity=0.4, intensity=0.4, startThreshold=0.55, threshold=0.55, startSoftThreshold=0.81, softThreshold=0.81, startColor=D2FFC9FF, color=D2FFC9FF\n",
+      "fSecond": 9.933333
+    },
+    {
+      "sFrame": 666,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC4\n//camera\ncamera pers=14.4\ncamera effect=dof, focal=24, blur=1\ncameraOffsetF charaId=1, focusX=2, focusY=0, focusZ=2.68\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=3, firstReduction=true, duration=0, startIntensity=0.3, intensity=0.3, startThreshold=0.55, threshold=0.55, startSoftThreshold=0.81, softThreshold=0.81, startColor=D2FFC9FF, color=D2FFC9FF\n",
+      "fSecond": 11.1
+    },
+    {
+      "sFrame": 731,
+      "sSamplingRate": 60,
+      "pCommandText": "//stageCyalume\ncyalume animId=2, animTimeReset=true",
+      "fSecond": 12.183333
+    },
+    {
+      "sFrame": 781,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC5\n//camera\ncamera pers=40\ncamera effect=none\ncameraOffsetY charaId=none\n//cameraBloom\n//cameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=1.3, startIntensity=0, intensity=0.4, startThreshold=0.35,threshold=0.35, startSoftThreshold=0.66, softThreshold=0.66, startColor=73A63BFF, color=73A63BFF\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=1.64, startIntensity=0, intensity=1.6, startThreshold=0.7, threshold=0.4, startSoftThreshold=0.89, softThreshold=0.89, startColor=415239FF, color=415239FF\n\n\n//chara\nchara id=all, color=757265FF\n\n//stageOrderLight id=15, colors=2D3D1DFF, duration=0, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=202615FF, duration=0, easeInOut=True, easeVal=0",
+      "fSecond": 13.016666
+    },
+    {
+      "sFrame": 788,
+      "sSamplingRate": 60,
+      "pCommandText": "//chara\nchara id=all, color=535449FF, duration=1.5, easeInOut=True, easeVal=0\n\n//stageOrderLight\n//stageOrderLight id=14, colors=DBFF9EFF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=14, colors=97A267FF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=3F4B2AFF, duration=1.5, easeInOut=True, easeVal=0",
+      "fSecond": 13.133333
+    },
+    {
+      "sFrame": 885,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC6\n//camera\ncamera pers=9.6\ncamera effect=dof, focal=24.4, blur=1\ncameraOffsetF charaId=3, focusX=-2.02, focusY=0, focusZ=2.62\n\n//chara\nchara id=all, color=CDCBBDFF\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0, startIntensity=0.4, intensity=0.4, startThreshold=0.64, threshold=0.64, startSoftThreshold=0.84, softThreshold=0.84, startColor=778763FF, color=778763FF\n\nstageOrderLight id=15, colors=1D1D15FF, duration=0, easeInOut=True, easeVal=0",
+      "fSecond": 14.75
+    },
+    {
+      "sFrame": 929,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC7\n//camera\ncamera pers=9.6\ncamera effect=dof, focal=26, blur=1\ncameraOffsetF charaId=2, focusX=0.09, focusY=0, focusZ=2.56",
+      "fSecond": 15.483334
+    },
+    {
+      "sFrame": 973,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC8\n//camera\ncamera pers=9.6\ncamera effect=dof, focal=25.5, blur=1\ncameraOffsetF charaId=1, focusX=2.09, focusY=0, focusZ=2.61",
+      "fSecond": 16.216667
+    },
+    {
+      "sFrame": 1026,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC9\n//camera\ncamera pers=14.4\ncamera effect=none\ncameraOffsetY charaId=none\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0, startIntensity=0.4, intensity=0.4, startThreshold=0.55, threshold=0.55, startSoftThreshold=0.84, softThreshold=0.84, startColor=9DB47FFF, color=9DB47FFF\n",
+      "fSecond": 17.1
+    },
+    {
+      "sFrame": 1082,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC10\n//camera\ncamera pers=9.6\ncamera effect=dof, focal=17, blur=1\ncameraOffsetF charaId=3, focusX=-2.23, focusY=0, focusZ=2.66\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=3, firstReduction=true, duration=0, startIntensity=0.25, intensity=0.25, startThreshold=0.55, threshold=0.55, startSoftThreshold=0.84, softThreshold=0.84, startColor=9DB47FFF, color=9DB47FFF\n\nstageOrderLight id=15, colors=182211FF, duration=0, easeInOut=True, easeVal=0",
+      "fSecond": 18.033333
+    },
+    {
+      "sFrame": 1182,
+      "sSamplingRate": 60,
+      "pCommandText": "//chara\nchara id=all, color=A8A8A8FF, duration=0.5, easeInOut=False, easeVal=0\n\n//stageBase\nstageBase id=all, color=2C2C2CFF, duration=0.5, easeInOut=False, easeVal=0\n\n//stageOrderLight\nstageOrderLight id=2, colors=000000FF, duration=0.3, easeInOut=False, easeVal=0\nstageOrderLight id=3, colors=000000FF, duration=0.3, easeInOut=False, easeVal=0\nstageOrderLight id=7, colors=000000FF, duration=0.3, easeInOut=False, easeVal=0\nstageOrderLight id=13, colors=000000FF, duration=0.3, easeInOut=False, easeVal=0\nstageOrderLight id=15, colors=000000FF, duration=0.3, easeInOut=False, easeVal=1",
+      "fSecond": 19.7
+    },
+    {
+      "sFrame": 1211,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC11\n//camera\ncamera pers=30\ncamera effect=none\ncameraOffsetY charaId=none\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0.1, startIntensity=0, intensity=0.3, startThreshold=0.14, threshold=0.14, startSoftThreshold=0.79, softThreshold=0.79, startColor=F0FFDCFF, color=F0FFDCFF\n\n//monitor\ncameraRT cameraId=1, pers=14.4\ncameraRTOffsetF cameraId=1, charaId=2, focusX=0.06, focusY=0, focusZ=2.55\n\n//chara\nchara id=all, color=FFFFFFFF, duration=0.1, easeInOut=False, easeVal=0\n\n//stageBase\nstageBase id=all, color=FFFFFFFF, duration=0.1, easeInOut=True, easeVal=1\n\nstageOrderLight id=0, colors=FFFFFFFF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=1, colors=FFF772FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=2, colors=778CFFFF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=3, colors=FFFBC6FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=4, colors=FFDE9DFF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=5, colors=FFDE8CFF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=6, colors=EAFFB5FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=7, colors=FDFFACFF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=8, colors=000000FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=9, colors=000000FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=10, colors=000000FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=11, colors=9FB273FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=12, colors=FFC38AFF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=13, colors=5B5146FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=14, colors=FF9F5FFF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=11160DFF, duration=0.1, easeInOut=False, easeVal=1\n\n//stageCyalume\ncyalume animId=1, animTimeReset=true",
+      "fSecond": 20.183332
+    },
+    {
+      "sFrame": 1217,
+      "sSamplingRate": 60,
+      "pCommandText": "//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0.5, startIntensity=0.3, intensity=0.05, startThreshold=0.14, threshold=0.14, startSoftThreshold=0.79, softThreshold=0.79, startColor=F0FFDCFF, color=F0FFDCFF\n\n//chara\nchara id=all, color=FBFFF7FF, duration=0.8, easeInOut=False, easeVal=0\n\n//stageBase\nstageBase id=all, color=DFFFD0FF, duration=1, easeInOut=True, easeVal=1\n\n//stageOrderLight\nstageOrderLight id=0, colors=FFFFFFFF/FFFFFF80/FFFFFFFF, duration=0.16, easeInOut=True, easeVal=0\nstageOrderLight id=1, colors=FF3C33FF/3373FFFF/FFCB33FF/7AFF33FF/33FAFFFF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=2, colors=778DFFFF/778DFF8D/778DFFFF, duration=0.16, easeInOut=True, easeVal=0\nstageOrderLight id=3, colors=FF3C3400/FF3C34FF/3473FF00/3473FFFF/FFCC3400/FFCC34FF/7BFF3400/7BFF34FF/34FBFF00/34FBFFFF, duration=0.5, easeInOut=True, easeVal=0\nstageOrderLight id=4, colors=FFAFACFF/BACFFFFF/FFEDBAFF/D5FFBFFF/B3FDFFFF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=5, colors=FFD777FF/FFD77700, duration=0.64, easeInOut=True, easeVal=0\nstageOrderLight id=6, colors=FFEBB600/FFECB6FF, duration=0.64, easeInOut=True, easeVal=0\nstageOrderLight id=7, colors=FF94A0FF/FF94A000/9B94FFFF/9B94FF00/FFE394FF/FFE39400/B7FF94FF/B7FF9400/94E6FFFF/94E6FF00, duration=0.5, easeInOut=True, easeVal=0\nstageOrderLight id=8, colors=8D8456FF/8D8456FF/8D845600, duration=0.38, easeInOut=False, easeVal=1\nstageOrderLight id=9, colors=8E855600/8E8556FF/8E8556FF, duration=0.38, easeInOut=True, easeVal=1\nstageOrderLight id=10, colors=8E8556FF/8E855600/8E8556FF, duration=0.38, easeInOut=True, easeVal=1\nstageOrderLight id=11, colors=8D9C7CFF/8D9C7C7D/8D9C7CFF, duration=0.16, easeInOut=True, easeVal=0\nstageOrderLight id=12, colors=FFEFA2FF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=13, colors=281B1EFF/291B1E00/1B1C29FF/1B1C2900/29261BFF/29261B00/1D291BFF/1D291B00/1B2629FF/1B262900, duration=0.5, easeInOut=True, easeVal=0\nstageOrderLight id=14, colors=FF9F5FFF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=11160D00, duration=1, easeInOut=False, easeVal=1\n",
+      "fSecond": 20.283333
+    },
+    {
+      "sFrame": 1290,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC12\n//camera\ncamera pers=9.6\ncamera effect=dof, focal=16, blur=1\ncameraOffsetF charaId=2, focusX=0.05, focusY=0, focusZ=2.54\n\n//monitor\ncameraRT cameraId=1, pers=14.4\ncameraRTOffsetY cameraId=1, charaId=none\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=3, firstReduction=true, duration=0, startIntensity=0.1, intensity=0.1, startThreshold=0.67, threshold=0.67, startSoftThreshold=0.71, softThreshold=0.71, startColor=FFFFFFFF, color=FFFFFFFF\n\nstageOrderLight id=15, colors=1E2712FF/1E271250/1E2712FF, duration=0.18, easeInOut=False, easeVal=1\n",
+      "fSecond": 21.5
+    },
+    {
+      "sFrame": 1340,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC13\n//camera\ncamera pers=9.6\ncamera effect=dof, focal=18, blur=1\ncameraOffsetF charaId=1, focusX=2.08, focusY=0, focusZ=2.67",
+      "fSecond": 22.333334
+    },
+    {
+      "sFrame": 1390,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC14\n//camera\ncamera pers=9.6\n//camera effect=dof, focal=16.6, blur=1\ncameraOffsetF charaId=3, focusX=-1.92, focusY=0, focusZ=2.65",
+      "fSecond": 23.166666
+    },
+    {
+      "sFrame": 1440,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC15\n//camera\ncamera pers=14.4\ncamera effect=dof, focal=29, blur=1\ncameraOffsetF charaId=2, focusX=-0.28, focusY=0, focusZ=2.55",
+      "fSecond": 24.0
+    },
+    {
+      "sFrame": 1582,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC16\n//camera\ncamera pers=20\ncamera effect=none\ncameraOffsetY charaId=none\n\n//monitor\ncameraRT cameraId=1, pers=14.4\ncameraRTOffsetF cameraId=1, charaId=1, focusX=1.95, focusY=0, focusZ=2.6\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0, startIntensity=0.6, intensity=0.6, startThreshold=0.43, threshold=0.43, startSoftThreshold=0.77, softThreshold=0.77, startColor=242424FF, color=242424FF\n",
+      "fSecond": 26.366667
+    },
+    {
+      "sFrame": 1740,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC16a\n//camera\ncamera pers=11\ncamera effect=dof, focal=20.5, blur=1\ncameraOffsetF charaId=2, focusX=-0.25, focusY=0, focusZ=2.5\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=3, firstReduction=true, duration=0, startIntensity=0.3, intensity=0.3, startThreshold=0.43, threshold=0.43, startSoftThreshold=0.77, softThreshold=0.77, startColor=242424FF, color=242424FF\n",
+      "fSecond": 29.0
+    },
+    {
+      "sFrame": 1806,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC17\n//camera\ncamera pers=14.4\ncamera effect=dof, focal=24.5, blur=1\ncameraOffsetF charaId=3, focusX=-1.71, focusY=0, focusZ=2.44\n\n//monitor\ncameraRT cameraId=1, pers=14.4\ncameraRTOffsetF cameraId=1, charaId=3, focusX=-1.7, focusY=0, focusZ=2.44",
+      "fSecond": 30.1
+    },
+    {
+      "sFrame": 1892,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC18\n//camera\ncamera pers=14.4\ncamera effect=dof, focal=26.5, blur=1\ncameraOffsetF charaId=1, focusX=1.88, focusY=0, focusZ=2.52",
+      "fSecond": 31.533333
+    },
+    {
+      "sFrame": 1977,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC19\n//camera\ncamera pers=14.4\ncamera effect=dof, focal=26.5, blur=1\ncameraOffsetF charaId=2, focusX=-0.07, focusY=0, focusZ=2.45\n\n//cameraRT fxId=0\ncameraRT cameraId=1, mode=static\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=3, firstReduction=true, duration=0, startIntensity=0.3, intensity=0.3, startThreshold=0.43, threshold=0.43, startSoftThreshold=0.77, softThreshold=0.77, startColor=36553AFF, color=36553AFF\n\n//chara\nchara id=all, color=E9F0E1FF, duration=1, easeInOut=True, easeVal=0\n\n//stageBase\nstageBase id=0, color=40463AFF, duration=1, easeInOut=False, easeVal=1\nstageBase id=1, color=40463AFF, duration=1, easeInOut=False, easeVal=1\nstageBase id=2, color=BBC9ADFF, duration=1, easeInOut=False, easeVal=1\nstageBase id=3, color=626A5BFF, duration=1, easeInOut=False, easeVal=1\nstageBase id=4, color=40453AFF, duration=1, easeInOut=False, easeVal=1\n\n//stageOrderLight\nstageOrderLight id=0, colors=FFFFFFFF, duration=0.16, easeInOut=True, easeVal=0\nstageOrderLight id=1, colors=ABE29E00/ABE29EFF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=2, colors=AADDB0FF/AADDB066, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=3, colors=95C081FF/95C0817F, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=4, colors=84B476FF/84B476FF/84B47680, duration=0.62, easeInOut=True, easeVal=0\nstageOrderLight id=5, colors=000000FF, duration=0.64, easeInOut=True, easeVal=0\nstageOrderLight id=6, colors=000000FF, duration=0.64, easeInOut=True, easeVal=0\nstageOrderLight id=7, colors=CFFFB0FF, duration=0.5, easeInOut=True, easeVal=0\nstageOrderLight id=8, colors=000000FF, duration=0.38, easeInOut=False, easeVal=1\nstageOrderLight id=9, colors=000000FF, duration=0.38, easeInOut=True, easeVal=1\nstageOrderLight id=10, colors=000000FF, duration=0.38, easeInOut=True, easeVal=1\nstageOrderLight id=11, colors=C2D3ACFF/C2D3ACFF/C2D3AC82, duration=0.6, easeInOut=True, easeVal=0\nstageOrderLight id=12, colors=68CA4F70/68CA4FFF/68CA4FFF, duration=0.63, easeInOut=True, easeVal=0\nstageOrderLight id=13, colors=000000FF, duration=0.5, easeInOut=True, easeVal=0\nstageOrderLight id=14, colors=CEFF9FFF/CEFF9FFF/CEFF9F84, duration=0.63, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=061900FF/06190050/061900FF, duration=0.36, easeInOut=False, easeVal=1\n",
+      "fSecond": 32.95
+    },
+    {
+      "sFrame": 2050,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC20\n//camera\ncamera pers=14.4\ncamera effect=none\ncameraOffsetY charaId=none\n\n//Change FX Id for Camera Static\ncameraRT cameraId=0, fxId=1\ncameraRT cameraId=1, fxId=1",
+      "fSecond": 34.166668
+    },
+    {
+      "sFrame": 2105,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC21\n//camera\ncamera pers=9.6\ncamera effect=dof, focal=16, blur=1\ncameraOffsetF charaId=2, focusX=-0.06, focusY=0, focusZ=2.41",
+      "fSecond": 35.083332
+    },
+    {
+      "sFrame": 2176,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC22\n//camera\ncamera pers=14.4\ncamera effect=dof, focal=20, blur=1\ncameraOffsetF charaId=2, focusX=0.06, focusY=0, focusZ=1.56",
+      "fSecond": 36.266666
+    },
+    {
+      "sFrame": 2272,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncameraSV id=0, ctrl=camera, enabled=true, rectW=0.5\ncameraSV id=0, ctrl=tween, pers=14.4\ncameraSV id=0, effect=dof, focal=13, blur=1\ncameraSVOffsetF id=0, charaId=1, focusX=2.12, focusY=0, focusZ=1.68\n\ncameraSV id=1, ctrl=camera, enabled=true, rectX=0.5, rectW=0.5\ncameraSV id=1, ctrl=tween, pers=14.4\ncameraSV id=1, effect=dof, focal=23.5, blur=1\ncameraSVOffsetF id=1, charaId=2, focusX=-0.04, focusY=0, focusZ=1.56",
+      "fSecond": 37.866665
+    },
+    {
+      "sFrame": 2317,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncameraSV id=1, ctrl=camera, enabled=true, rectW=0.5\ncameraSV id=1, ctrl=tween, pers=14.4\ncameraSV id=1, effect=dof, focal=19, blur=1\ncameraSVOffsetF id=1, charaId=2, focusX=0.1, focusY=0, focusZ=1.52\n\ncameraSV id=2, ctrl=camera, enabled=true, rectX=0.5, rectW=0.5\ncameraSV id=2, ctrl=tween, pers=14.4\ncameraSV id=2, effect=dof, focal=23.5, blur=1\ncameraSVOffsetF id=2, charaId=3, focusX=-2.03, focusY=0, focusZ=1.64",
+      "fSecond": 38.616665
+    },
+    {
+      "sFrame": 2361,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC24\n//camera\ncameraSV id=0, ctrl=camera, enabled=false\ncameraSV id=1, ctrl=camera, enabled=false\ncameraSV id=2, ctrl=camera, enabled=false\n\ncamera pers=11\ncamera effect=dof, focal=20, blur=1\ncameraOffsetF charaId=3, focusX=-1.99, focusY=0, focusZ=1.69",
+      "fSecond": 39.35
+    },
+    {
+      "sFrame": 2451,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC25\n//camera\ncamera pers=14.4\ncamera effect=none\ncameraOffsetY charaId=none\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0, startIntensity=0.3, intensity=0.3, startThreshold=0.43, threshold=0.43, startSoftThreshold=0.77, softThreshold=0.77, startColor=1F4924FF, color=1F4924FF\n",
+      "fSecond": 40.85
+    },
+    {
+      "sFrame": 2500,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC25a\n//camera\ncamera pers=14.4\ncamera effect=dof, focal=18.5, blur=1\ncameraOffsetF charaId=1, focusX=0.86, focusY=0, focusZ=2.95\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=3, firstReduction=true, duration=0, startIntensity=0.3, intensity=0.3, startThreshold=0.43, threshold=0.43, startSoftThreshold=0.77, softThreshold=0.77, startColor=1F4924FF, color=1F4924FF\n",
+      "fSecond": 41.666668
+    },
+    {
+      "sFrame": 2556,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC26\n//camera\ncamera pers=11\ncamera effect=dof, focal=20.5, blur=1\ncameraOffsetF charaId=3, focusX=-0.74, focusY=0, focusZ=3.07",
+      "fSecond": 42.6
+    },
+    {
+      "sFrame": 2641,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC27\n//camera\ncamera pers=20\ncamera effect=none\ncameraOffsetY charaId=none\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0, startIntensity=0.3, intensity=0.3, startThreshold=0.43, threshold=0.43, startSoftThreshold=0.77, softThreshold=0.77, startColor=1F4924FF, color=1F4924FF\n",
+      "fSecond": 44.016666
+    },
+    {
+      "sFrame": 2716,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC30\n//camera\ncamera pers=20\ncamera effect=none\ncameraOffsetF charaId=2, focusX=0, focusY=0, focusZ=2.27\n\n//camera\n//cameraSV id=0, ctrl=camera, enabled=true, rectW=0.34\n//cameraSV id=0, ctrl=tween, pers=11\n//cameraSV id=0, effect=dof, focal=13, blur=1\n//cameraSVOffsetF id=0, charaId=1, focusX=0.74, focusY=0, focusZ=3.07\n\n//cameraSV id=1, ctrl=camera, enabled=true, rectX=0.34, rectW=0.34\n//cameraSV id=1, ctrl=tween, pers=11\n//cameraSV id=1, effect=dof, focal=13, blur=1\n//cameraSVOffsetF id=1, charaId=2, focusX=0.01, focusY=0, focusZ=2.26\n\n//cameraSV id=2, ctrl=camera, enabled=true, rectX=0.68, rectW=0.34\n//cameraSV id=2, ctrl=tween, pers=11\n//cameraSV id=2, effect=dof, focal=13, blur=1\n//cameraSVOffsetF id=2, charaId=3, focusX=0.01, focusY=0, focusZ=2.26",
+      "fSecond": 45.266666
+    },
+    {
+      "sFrame": 2717,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncamera pers=11, duration=3.3, easeInOut=True, easeVal=0",
+      "fSecond": 45.283333
+    },
+    {
+      "sFrame": 2760,
+      "sSamplingRate": 60,
+      "pCommandText": "//chara\nchara id=all, color=FBFFF8FF, duration=0.6, easeInOut=True, easeVal=0\n\n//stageBase\nstageBase id=all, color=FFFFFFFF, duration=0.6, easeInOut=True, easeVal=1\n\n//stageOrderLight\nstageOrderLight id=0, colors=FFFFFFFF, duration=0.16, easeInOut=True, easeVal=0\nstageOrderLight id=1, colors=FF0020FF/0000FFFF/FFBA00FF/31FF00FF/00F3FFFF, duration=0.78, easeInOut=True, easeVal=5\nstageOrderLight id=2, colors=FF0020FF/0000FFFF/FFBB00FF/31FF00FF/00F3FFFF, duration=0.78, easeInOut=True, easeVal=5\nstageOrderLight id=3, colors=FF0020FF/0000FFFF/FFBB00FF/31FF00FF/00F3FFFF, duration=0.78, easeInOut=True, easeVal=5\nstageOrderLight id=4, colors=FF0020FF/0000FFFF/FFBB00FF/31FF00FF/00F3FFFF, duration=0.78, easeInOut=True, easeVal=5\nstageOrderLight id=5, colors=FF0020FF/0000FFFF/FFBB00FF/31FF00FF/00F3FFFF, duration=0.78, easeInOut=True, easeVal=5\nstageOrderLight id=6, colors=FF6D7FFF/5F5FFFFF/FFBB00FF/87FF6BFF/00A0FFFF, duration=0.78, easeInOut=True, easeVal=5\nstageOrderLight id=7, colors=FF6D80FF/5F5FFFFF/FFBB00FF/87FF6BFF/00A1FFFF, duration=0.78, easeInOut=True, easeVal=5\nstageOrderLight id=8, colors=A18E6849/A18E68FF/A18E68FF, duration=0.6, easeInOut=False, easeVal=1\nstageOrderLight id=9, colors=8D7C5BFF/8D7C5B4F/8D7C5BFF, duration=0.6, easeInOut=True, easeVal=1\nstageOrderLight id=10, colors=8D7C5BFF/8D7C5BFF/8D7C5B47, duration=0.6, easeInOut=True, easeVal=1\nstageOrderLight id=11, colors=C2D3ACFF/C2D3ACFF/C2D3AC82, duration=0.6, easeInOut=True, easeVal=0\nstageOrderLight id=12, colors=A2433FFF/574FCAFF/CAAF4FFF/68CA4FFF/4FB8CAFF, duration=0.78, easeInOut=True, easeVal=5\nstageOrderLight id=13, colors=000000FF, duration=0.5, easeInOut=True, easeVal=0\nstageOrderLight id=14, colors=CEFF9FFF/CEFF9FFF/CEFF9F84, duration=0.63, easeInOut=True, easeVal=0\n",
+      "fSecond": 46.0
+    },
+    {
+      "sFrame": 2916,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC29\n//camera\ncameraSV id=0, ctrl=camera, enabled=false\ncameraSV id=1, ctrl=camera, enabled=false\ncameraSV id=2, ctrl=camera, enabled=false\n\ncamera pers=20\ncamera effect=none\ncameraOffsetY charaId=none\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0, startIntensity=0.2, intensity=0.2, startThreshold=0.54, threshold=0.54, startSoftThreshold=0.79, softThreshold=0.79, startColor=FFFFFFFF, color=FFFFFFFF\n\nstageOrderLight id=15, colors=5E5E3AFF/5E5E3ACF/5E5E3AFF, duration=0.18, easeInOut=True, easeVal=0\n",
+      "fSecond": 48.6
+    },
+    {
+      "sFrame": 3029,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC30\n//camera\ncamera pers=9.6\ncamera effect=dof, focal=18, blur=1\ncameraOffsetF charaId=1, focusX=0.1, focusY=0, focusZ=3.39\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=3, firstReduction=true, duration=0, startIntensity=0.2, intensity=0.2, startThreshold=0.54, threshold=0.54, startSoftThreshold=0.79, softThreshold=0.79, startColor=615D52FF, color=615D52FF\n\nstageOrderLight id=15, colors=00000000, duration=0, easeInOut=True, easeVal=0\n",
+      "fSecond": 50.483334
+    },
+    {
+      "sFrame": 3092,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC31\n//camera\ncamera pers=14.4\ncamera effect=dof, focal=20, blur=1\ncameraOffsetF charaId=2, focusX=1.93, focusY=0, focusZ=2.69",
+      "fSecond": 51.533333
+    },
+    {
+      "sFrame": 3194,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC32\n//camera\ncamera pers=14.4\ncamera effect=dof, focal=30, blur=1\ncameraOffsetF charaId=3, focusX=-2.14, focusY=0, focusZ=2.63\n\n//stageCyalume\ncyalume animId=0, animTimeReset=true",
+      "fSecond": 53.233334
+    },
+    {
+      "sFrame": 3291,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC33\n//camera\ncamera pers=11\ncamera effect=dof, focal=26.5, blur=1\ncameraOffsetF charaId=1, focusX=0.29, focusY=0, focusZ=3.25",
+      "fSecond": 54.85
+    },
+    {
+      "sFrame": 3326,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncamera effect=dof, focal=23.7, blur=1",
+      "fSecond": 55.433334
+    },
+    {
+      "sFrame": 3346,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncamera effect=dof, focal=18.5, blur=1",
+      "fSecond": 55.766666
+    },
+    {
+      "sFrame": 3361,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC34\n//camera\ncamera pers=25\ncamera effect=none\ncameraOffsetY charaId=none\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0, startIntensity=0.45, intensity=0.45, startThreshold=0.79, threshold=0.79, startSoftThreshold=0.79, softThreshold=0.79, startColor=554A1EFF, color=554A1EFF\n",
+      "fSecond": 56.016666
+    },
+    {
+      "sFrame": 3481,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC35\n//camera\ncamera pers=14.4\ncamera effect=dof, focal=16, blur=1\ncameraOffsetF charaId=1, focusX=0.07, focusY=0, focusZ=3.33\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0, startIntensity=0.45, intensity=0.45, startThreshold=0.79, threshold=0.79, startSoftThreshold=0.79, softThreshold=0.79, startColor=554A1EFF, color=554A1EFF\n",
+      "fSecond": 58.016666
+    },
+    {
+      "sFrame": 3488,
+      "sSamplingRate": 60,
+      "pCommandText": "//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0.6, startIntensity=0.45, intensity=0.2, startThreshold=0.79, threshold=0.5, startSoftThreshold=0.79, softThreshold=0.81, startColor=154805FF, color=154805FF\n\n//chara\nchara id=all, color=EAF0E4FF, duration=1, easeInOut=False, easeVal=1\n\n//stageBase\nstageBase id=0, color=40463AFF, duration=1, easeInOut=False, easeVal=1\nstageBase id=1, color=40463AFF, duration=1, easeInOut=False, easeVal=1\nstageBase id=2, color=BBC9ADFF, duration=1, easeInOut=False, easeVal=1\nstageBase id=3, color=626A5BFF, duration=1, easeInOut=False, easeVal=1\nstageBase id=4, color=40453AFF, duration=1, easeInOut=False, easeVal=1\n\n//stageOrderLight\nstageOrderLight id=0, colors=FFFFFFFF, duration=0.16, easeInOut=True, easeVal=0\nstageOrderLight id=1, colors=ABE29E00/ABE29EFF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=2, colors=AADDB0FF/AADDB066, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=3, colors=95C081FF/95C0817F, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=4, colors=84B476FF/84B476FF/84B47680, duration=0.62, easeInOut=True, easeVal=0\nstageOrderLight id=5, colors=000000FF, duration=0.64, easeInOut=True, easeVal=0\nstageOrderLight id=6, colors=000000FF, duration=0.64, easeInOut=True, easeVal=0\nstageOrderLight id=7, colors=CFFFB0FF, duration=0.5, easeInOut=True, easeVal=0\nstageOrderLight id=8, colors=000000FF, duration=0.38, easeInOut=False, easeVal=1\nstageOrderLight id=9, colors=000000FF, duration=0.38, easeInOut=True, easeVal=1\nstageOrderLight id=10, colors=000000FF, duration=0.38, easeInOut=True, easeVal=1\nstageOrderLight id=11, colors=C2D3ACFF/C2D3ACFF/C2D3AC82, duration=0.6, easeInOut=True, easeVal=0\nstageOrderLight id=12, colors=68CA4F70/68CA4FFF/68CA4FFF, duration=0.63, easeInOut=True, easeVal=0\nstageOrderLight id=13, colors=000000FF, duration=0.5, easeInOut=True, easeVal=0\nstageOrderLight id=14, colors=CEFF9FFF/CEFF9FFF/CEFF9F84, duration=0.63, easeInOut=True, easeVal=0",
+      "fSecond": 58.133335
+    },
+    {
+      "sFrame": 3542,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC36\n//camera\ncamera pers=14.4\ncamera effect=none\ncameraOffsetY charaId=none\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=3, firstReduction=true, duration=0, startIntensity=0.2, intensity=0.2, startThreshold=0.5, threshold=0.5, startSoftThreshold=0.81, softThreshold=0.81, startColor=154805FF, color=154805FF\n",
+      "fSecond": 59.033333
+    },
+    {
+      "sFrame": 3586,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC37\n//camera\ncamera pers=14.4\ncamera effect=none\ncameraOffsetF charaId=1, focusX=0, focusY=0, focusZ=3.4\n\n",
+      "fSecond": 59.766666
+    },
+    {
+      "sFrame": 3654,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC38\n//camera\ncamera pers=11\ncamera effect=dof, focal=20.5, blur=1\ncameraOffsetF charaId=1, focusX=-0.05, focusY=0, focusZ=3.47",
+      "fSecond": 60.9
+    },
+    {
+      "sFrame": 3746,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC39\n//camera\ncamera pers=14.4\ncamera effect=dof, focal=19, blur=1\ncameraOffsetF charaId=3, focusX=-1.05, focusY=0, focusZ=2.52",
+      "fSecond": 62.433334
+    },
+    {
+      "sFrame": 3780,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC40\n//camera\ncamera pers=14.4\ncamera effect=dof, focal=15.5, blur=1\ncameraOffsetF charaId=2, focusX=0.82, focusY=0, focusZ=2.52",
+      "fSecond": 63.0
+    },
+    {
+      "sFrame": 3811,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC41\n//camera\ncamera pers=11\ncamera effect=none\ncameraOffsetY charaId=none",
+      "fSecond": 63.516666
+    },
+    {
+      "sFrame": 3841,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC42\n//camera\ncamera pers=11\ncamera effect=dof, focal=18, blur=1\ncameraOffsetF charaId=2, focusX=1.24, focusY=0, focusZ=2.68\n\n//monitor\n//cameraRT cameraId=1, pers=14.4\n//cameraRTOffsetY cameraId=1, charaId=none\n\n",
+      "fSecond": 64.01667
+    },
+    {
+      "sFrame": 3878,
+      "sSamplingRate": 60,
+      "pCommandText": "stageOrderLight id=3, colors=F2FFEDFF, duration=0.05, easeInOut=True, easeVal=0\nstageOrderLight id=9, colors=486028FF, duration=0.05, easeInOut=True, easeVal=0\n",
+      "fSecond": 64.63333
+    },
+    {
+      "sFrame": 3924,
+      "sSamplingRate": 60,
+      "pCommandText": "stageOrderLight id=3, colors=55FF3EFF, duration=0.05, easeInOut=True, easeVal=0\nstageOrderLight id=9, colors=48602800, duration=0.05, easeInOut=True, easeVal=0\nstageOrderLight id=10, colors=486028FF, duration=0.05, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=27311EFF, duration=0.1, easeInOut=True, easeVal=0",
+      "fSecond": 65.4
+    },
+    {
+      "sFrame": 3930,
+      "sSamplingRate": 60,
+      "pCommandText": "stageOrderLight id=15, colors=121D09FF, duration=0.5, easeInOut=False, easeVal=1",
+      "fSecond": 65.5
+    },
+    {
+      "sFrame": 3931,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC43\n//camera\ncamera pers=25\ncamera effect=none\ncameraOffsetY charaId=none\n\n//monitor\n//cameraRT cameraId=1, pers=14.4\n//cameraRTOffsetF cameraId=1, charaId=1, focusX=-0.08, focusY=0, focusZ=3.5\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0, startIntensity=0.6, intensity=0.6, startThreshold=0.43, threshold=0.43, startSoftThreshold=0.81, softThreshold=0.81, startColor=255B14FF, color=255B14FF\n",
+      "fSecond": 65.51667
+    },
+    {
+      "sFrame": 3969,
+      "sSamplingRate": 60,
+      "pCommandText": "stageOrderLight id=3, colors=F2FFEDFF, duration=0.05, easeInOut=True, easeVal=0\nstageOrderLight id=8, colors=486028FF, duration=0.05, easeInOut=True, easeVal=0\nstageOrderLight id=9, colors=48602800, duration=0.05, easeInOut=True, easeVal=0\nstageOrderLight id=10, colors=48602800, duration=0.05, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=27311EFF, duration=0.1, easeInOut=True, easeVal=0",
+      "fSecond": 66.15
+    },
+    {
+      "sFrame": 3975,
+      "sSamplingRate": 60,
+      "pCommandText": "stageOrderLight id=15, colors=121D09FF, duration=0.5, easeInOut=False, easeVal=1",
+      "fSecond": 66.25
+    },
+    {
+      "sFrame": 4017,
+      "sSamplingRate": 60,
+      "pCommandText": "stageOrderLight id=3, colors=55FF3EFF, duration=0.05, easeInOut=True, easeVal=0\nstageOrderLight id=8, colors=48602800, duration=0.05, easeInOut=True, easeVal=0\nstageOrderLight id=9, colors=486028FF, duration=0.05, easeInOut=True, easeVal=0\nstageOrderLight id=10, colors=48602800, duration=0.05, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=27311EFF, duration=0.1, easeInOut=True, easeVal=0",
+      "fSecond": 66.95
+    },
+    {
+      "sFrame": 4023,
+      "sSamplingRate": 60,
+      "pCommandText": "stageOrderLight id=15, colors=121D09FF, duration=0.5, easeInOut=False, easeVal=1",
+      "fSecond": 67.05
+    },
+    {
+      "sFrame": 4036,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC44\n//camera\ncamera pers=11\ncamera effect=dof, focal=27.5, blur=1\ncameraOffsetF charaId=1, focusX=0.15, focusY=0, focusZ=3.53\n\n//monitor\ncameraRT cameraId=1, pers=14.4\ncameraRTOffsetF cameraId=1, charaId=1, focusX=-0.08, focusY=0, focusZ=3.5\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=3, firstReduction=true, duration=0, startIntensity=0.3, intensity=0.3, startThreshold=0.43, threshold=0.43, startSoftThreshold=0.81, softThreshold=0.81, startColor=255B14FF, color=255B14FF\n",
+      "fSecond": 67.26667
+    },
+    {
+      "sFrame": 4064,
+      "sSamplingRate": 60,
+      "pCommandText": "stageOrderLight id=3, colors=F2FFEDFF, duration=0.05, easeInOut=True, easeVal=0\nstageOrderLight id=8, colors=48602800, duration=0.05, easeInOut=True, easeVal=0\nstageOrderLight id=9, colors=48602800, duration=0.05, easeInOut=True, easeVal=0\nstageOrderLight id=10, colors=486028FF, duration=0.05, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=27311EFF, duration=0.1, easeInOut=True, easeVal=0",
+      "fSecond": 67.73333
+    },
+    {
+      "sFrame": 4070,
+      "sSamplingRate": 60,
+      "pCommandText": "stageOrderLight id=15, colors=121D09FF, duration=0.5, easeInOut=False, easeVal=1",
+      "fSecond": 67.833336
+    },
+    {
+      "sFrame": 4110,
+      "sSamplingRate": 60,
+      "pCommandText": "stageOrderLight id=3, colors=55FF3EFF, duration=0.05, easeInOut=True, easeVal=0\nstageOrderLight id=8, colors=486028FF, duration=0.05, easeInOut=True, easeVal=0\nstageOrderLight id=9, colors=48602800, duration=0.05, easeInOut=True, easeVal=0\nstageOrderLight id=10, colors=48602800, duration=0.05, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=27311EFF, duration=0.1, easeInOut=True, easeVal=0",
+      "fSecond": 68.5
+    },
+    {
+      "sFrame": 4117,
+      "sSamplingRate": 60,
+      "pCommandText": "stageOrderLight id=15, colors=121D09FF, duration=0.5, easeInOut=False, easeVal=1",
+      "fSecond": 68.61667
+    },
+    {
+      "sFrame": 4171,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC45\n//camera\ncamera pers=9.6\ncamera effect=dof, focal=18.5, blur=1\ncameraOffsetF charaId=3, focusX=-0.81, focusY=0, focusZ=2.48\n\n//monitor\ncameraRT cameraId=1, pers=14.4\ncameraRTOffsetF cameraId=1, charaId=2, focusX=1.17, focusY=0, focusZ=2.57",
+      "fSecond": 69.51667
+    },
+    {
+      "sFrame": 4174,
+      "sSamplingRate": 60,
+      "pCommandText": "//stageBase\nstageBase id=0, color=40463AFF, duration=0.2, easeInOut=False, easeVal=1\nstageBase id=1, color=677657FF, duration=0.2, easeInOut=False, easeVal=1\nstageBase id=2, color=BBC9ADFF, duration=0.2, easeInOut=False, easeVal=1\nstageBase id=3, color=A3B098FF, duration=0.2, easeInOut=False, easeVal=1\nstageBase id=4, color=758069FF, duration=0.2, easeInOut=False, easeVal=1\n\nstageOrderLight id=3, colors=9BD972FF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=8, colors=626D55FF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=9, colors=626D55FF, duration=0.21, easeInOut=True, easeVal=0\nstageOrderLight id=10, colors=626D55FF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=1F1E08FF, duration=0.2, easeInOut=True, easeVal=0\n",
+      "fSecond": 69.566666
+    },
+    {
+      "sFrame": 4210,
+      "sSamplingRate": 60,
+      "pCommandText": "stageOrderLight id=8, colors=626D5500, duration=0.7, easeInOut=False, easeVal=1\nstageOrderLight id=9, colors=626D5500, duration=0.7, easeInOut=False, easeVal=1\nstageOrderLight id=10, colors=626D5500, duration=0.7, easeInOut=False, easeVal=1",
+      "fSecond": 70.166664
+    },
+    {
+      "sFrame": 4226,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC46\n//camera\ncamera pers=14.4\ncamera effect=none\ncameraOffsetY charaId=none\n\n//cameraRT fxId=0\ncameraRT cameraId=1, fxId=0, mode=static\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0, startIntensity=0.3, intensity=0.3, startThreshold=0.43, threshold=0.43, startSoftThreshold=0.81, softThreshold=0.81, startColor=255B14FF, color=255B14FF\n",
+      "fSecond": 70.433334
+    },
+    {
+      "sFrame": 4251,
+      "sSamplingRate": 60,
+      "pCommandText": "//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0.3, startIntensity=0.3, intensity=0.3, startThreshold=0.3, threshold=0.43, startSoftThreshold=0.81, softThreshold=0.81, startColor=255B14FF, color=515574FF\n\n//chara\nchara id=all, color=E2E6EBFF, duration=0.3, easeInOut=False, easeVal=1\n\n//stageBase\nstageBase id=all, color=D0D3FFFF, duration=0.3, easeInOut=True, easeVal=1\n\n//stageOrderLight\nstageOrderLight id=0, colors=FFFFFFFF, duration=0.16, easeInOut=True, easeVal=0\nstageOrderLight id=1, colors=003BFFFF/003BFF00, duration=0.78, easeInOut=True, easeVal=5\nstageOrderLight id=2, colors=0019FF00/0019FFFF, duration=0.78, easeInOut=True, easeVal=5\nstageOrderLight id=3, colors=7993FF00/7993FFFF, duration=0.78, easeInOut=True, easeVal=5\nstageOrderLight id=4, colors=6066B9FF/6066B97D, duration=0.42, easeInOut=True, easeVal=5\nstageOrderLight id=5, colors=7472CEFF, duration=0.78, easeInOut=True, easeVal=5\nstageOrderLight id=6, colors=7472CFFF, duration=0.78, easeInOut=True, easeVal=5\nstageOrderLight id=7, colors=000000FF, duration=0.78, easeInOut=True, easeVal=5\nstageOrderLight id=8, colors=6874A152/6874A1FF, duration=0.6, easeInOut=False, easeVal=1\nstageOrderLight id=9, colors=6875A16D/6875A1FF, duration=0.6, easeInOut=True, easeVal=1\nstageOrderLight id=10, colors=6875A1FF/6875A16B, duration=0.6, easeInOut=True, easeVal=1\nstageOrderLight id=11, colors=809567FF, duration=0.6, easeInOut=True, easeVal=0\nstageOrderLight id=12, colors=3E59A2FF/3E59A262/3E59A2FF, duration=0.78, easeInOut=True, easeVal=0\nstageOrderLight id=13, colors=000000FF, duration=0.5, easeInOut=True, easeVal=0\nstageOrderLight id=14, colors=A0A3FFFF, duration=0.63, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=151233FF/15123350/151233FF, duration=0.32, easeInOut=True, easeVal=0\n",
+      "fSecond": 70.85
+    },
+    {
+      "sFrame": 4306,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC47\n//camera\ncamera pers=9.6\ncamera effect=dof, focal=25.5, blur=1\ncameraOffsetF charaId=1, focusX=0, focusY=0, focusZ=3.53\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=3, firstReduction=true, duration=0, startIntensity=0.3, intensity=0.3, startThreshold=0.43, threshold=0.43, startSoftThreshold=0.81, softThreshold=0.81, startColor=515574FF, color=515574FF\n\ncameraRT cameraId=0, fxId=2\ncameraRT cameraId=1, fxId=2\n",
+      "fSecond": 71.76667
+    },
+    {
+      "sFrame": 4420,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC48\n//camera\ncamera pers=9.6\ncamera effect=dof, focal=19.5, blur=1\ncameraOffsetF charaId=2, focusX=1.88, focusY=0, focusZ=2.57",
+      "fSecond": 73.666664
+    },
+    {
+      "sFrame": 4460,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC49\n//camera\ncamera pers=9.6\ncamera effect=dof, focal=21, blur=1\ncameraOffsetF charaId=2, focusX=1.85, focusY=0, focusZ=2.65",
+      "fSecond": 74.333336
+    },
+    {
+      "sFrame": 4501,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC50\n//camera\ncamera pers=14.4\ncamera effect=dof, focal=21.5, blur=1\ncameraOffsetF charaId=1, focusX=-0.04, focusY=0, focusZ=3.52",
+      "fSecond": 75.01667
+    },
+    {
+      "sFrame": 4576,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC51\n//camera\ncamera pers=16\ncamera effect=none\ncameraOffsetY charaId=none\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0, startIntensity=0.3, intensity=0.3, startThreshold=0.6, threshold=0.6, startSoftThreshold=0.81, softThreshold=0.81, startColor=22294DFF, color=22294DFF\n",
+      "fSecond": 76.26667
+    },
+    {
+      "sFrame": 4626,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC52\n//camera\ncamera pers=14.4\ncamera effect=none\ncameraOffsetY charaId=none\n\n//stageCyalume\ncyalume animId=1, animTimeReset=true",
+      "fSecond": 77.1
+    },
+    {
+      "sFrame": 4627,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncamera pers=30, duration=6.9, easeInOut=True, easeVal=0",
+      "fSecond": 77.11667
+    },
+    {
+      "sFrame": 4650,
+      "sSamplingRate": 60,
+      "pCommandText": "particleCtrl id=0, playMode=play",
+      "fSecond": 77.5
+    },
+    {
+      "sFrame": 4751,
+      "sSamplingRate": 60,
+      "pCommandText": "//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0.1, startIntensity=0.3, intensity=0.62, startThreshold=0.6, threshold=0.6, startSoftThreshold=0.81, softThreshold=0.81, startColor=22294DFF, color=22294DFF\n\n//stageOrderLight\nstageOrderLight id=3, colors=FDFAC3FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=4, colors=9EFFFCFF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=7, colors=ACE5FFFF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=13, colors=192126FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=182631FF, duration=0.1, easeInOut=True, easeVal=0\n",
+      "fSecond": 79.183334
+    },
+    {
+      "sFrame": 4969,
+      "sSamplingRate": 60,
+      "pCommandText": "//monitor\ncameraRT cameraId=1, pers=14.4\ncameraRTOffsetF cameraId=1, charaId=2, focusX=0.08, focusY=0, focusZ=2.61",
+      "fSecond": 82.816666
+    },
+    {
+      "sFrame": 5041,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC53\n//camera\ncamera pers=11\ncamera effect=dof, focal=25.5, blur=1\ncameraOffsetF charaId=2, focusX=0.09, focusY=0, focusZ=2.56",
+      "fSecond": 84.01667
+    },
+    {
+      "sFrame": 5058,
+      "sSamplingRate": 60,
+      "pCommandText": "//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0.6, startIntensity=0.6, intensity=0.1, startThreshold=0.6, threshold=0.6, startSoftThreshold=0.81, softThreshold=0.81, startColor=22294DFF, color=22294DFF\n\n//chara\nchara id=all, color=C7CCD2FF, duration=0.6, easeInOut=False, easeVal=1\n\n//stageBase\nstageBase id=all, color=232621FF, duration=0.6, easeInOut=False, easeVal=1\nstageBase id=2, color=FFFFFFFF, duration=0.6, easeInOut=False, easeVal=1\n\n//stageOrderLight\nstageOrderLight id=all, colors=00000000, duration=0.6, easeInOut=False, easeVal=1\nstageOrderLight id=15, colors=182631FF, duration=0.1, easeInOut=True, easeVal=0\n\nparticleCtrl id=1, playMode=play",
+      "fSecond": 84.3
+    },
+    {
+      "sFrame": 5080,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncamera effect=dof, focal=23.5, blur=1",
+      "fSecond": 84.666664
+    },
+    {
+      "sFrame": 5095,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncamera effect=dof, focal=23, blur=1",
+      "fSecond": 84.916664
+    },
+    {
+      "sFrame": 5100,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncamera effect=dof, focal=20, blur=1",
+      "fSecond": 85.0
+    },
+    {
+      "sFrame": 5105,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncamera effect=dof, focal=15, blur=1",
+      "fSecond": 85.083336
+    },
+    {
+      "sFrame": 5111,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC54\n//camera\ncamera pers=30\ncamera effect=none\ncameraOffsetY charaId=none\n\n//cameraBloom\ncameraBloom enabled=False",
+      "fSecond": 85.183334
+    },
+    {
+      "sFrame": 5121,
+      "sSamplingRate": 60,
+      "pCommandText": "//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0.1, startIntensity=0, intensity=0.6, startThreshold=0.6, threshold=0.42, startSoftThreshold=0.85, softThreshold=0.85, startColor=3D3930FF, color=3D3930FF\n\n//chara\nchara id=all, color=FFFFFFFF, duration=0.1, easeInOut=False, easeVal=1\n\n//stageBase\nstageBase id=all, color=FFFFFFFF, duration=0.1, easeInOut=False, easeVal=1\n\n//stageOrderLight\nstageOrderLight id=0, colors=FFFFFFFF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=1, colors=FFFFFFFF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=2, colors=FFF5CBFF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=3, colors=FFF7C7FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=4, colors=FFFFF7FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=5, colors=F3F094FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=6, colors=F3F094FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=7, colors=FFFCE4FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=8, colors=A6A39BFF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=9, colors=A6A39BFF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=10, colors=A6A39BFF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=11, colors=E9DEB3FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=12, colors=FEFFC7FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=13, colors=4B4A47FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=14, colors=C6B794FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=8C8A6BFF, duration=0.1, easeInOut=True, easeVal=0\n",
+      "fSecond": 85.35
+    },
+    {
+      "sFrame": 5132,
+      "sSamplingRate": 60,
+      "pCommandText": "//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0.5, startIntensity=0.6, intensity=0, startThreshold=0.6, threshold=0.42, startSoftThreshold=0.85, softThreshold=0.85, startColor=3D3930FF, color=3D3930FF\n\n\n//stageOrderLight\nstageOrderLight id=all, colors=00000000, duration=0.6, easeInOut=False, easeVal=1\nstageOrderLight id=0, colors=FFFFFFFF, duration=0.1, easeInOut=False, easeVal=1\nstageOrderLight id=1, colors=FFFFFFFF, duration=0.1, easeInOut=False, easeVal=1\nstageOrderLight id=2, colors=FFF5CBFF, duration=0.1, easeInOut=False, easeVal=1\nstageOrderLight id=3, colors=FFF7C7FF, duration=0.1, easeInOut=False, easeVal=1\nstageOrderLight id=4, colors=FFFFF7FF, duration=0.1, easeInOut=False, easeVal=1\nstageOrderLight id=5, colors=F3F094FF, duration=0.1, easeInOut=False, easeVal=1\nstageOrderLight id=6, colors=F3F094FF, duration=0.1, easeInOut=False, easeVal=1\nstageOrderLight id=7, colors=FFFCE4FF, duration=0.1, easeInOut=False, easeVal=1\nstageOrderLight id=8, colors=222220FF, duration=0.6, easeInOut=False, easeVal=1\nstageOrderLight id=9, colors=222220FF, duration=0.6, easeInOut=False, easeVal=1\nstageOrderLight id=10, colors=222220FF, duration=0.6, easeInOut=False, easeVal=1\nstageOrderLight id=11, colors=E9DEB3FF, duration=0.6, easeInOut=False, easeVal=1\nstageOrderLight id=12, colors=FEFFC7FF, duration=0.6, easeInOut=False, easeVal=1\nstageOrderLight id=13, colors=11100EFF, duration=0.6, easeInOut=False, easeVal=1\nstageOrderLight id=14, colors=C6B794FF, duration=0.6, easeInOut=False, easeVal=1\nstageOrderLight id=15, colors=2E2E26FF, duration=0.6, easeInOut=False, easeVal=1\n",
+      "fSecond": 85.53333
+    },
+    {
+      "sFrame": 5161,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC55\n//camera\ncamera pers=16\ncamera effect=dof, focal=13.5, blur=1\ncameraOffsetF charaId=2, focusX=0.04, focusY=0, focusZ=2.74\n\n//cameraRT fxId=0\ncameraRT cameraId=1, fxId=0, mode=static\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=3, firstReduction=true, duration=0, startIntensity=0.3, intensity=0.3, startThreshold=0.6, threshold=0.6, startSoftThreshold=0.81, softThreshold=0.81, startColor=2B2B27FF, color=2B2B27FF\n\n//chara\nchara id=all, color=FFFFFFFF, duration=0.3, easeInOut=False, easeVal=1\n\n//stageBase\nstageBase id=all, color=FFFFFFFF, duration=0.2, easeInOut=True, easeVal=1\n\n//stageOrderLight\nstageOrderLight id=0, colors=FFFFFFFF/FFFFFF76/FFFFFFFF, duration=0.16, easeInOut=True, easeVal=0\nstageOrderLight id=1, colors=FFE277FF/FFE27750/FFE277FF, duration=0.16, easeInOut=True, easeVal=0\nstageOrderLight id=2, colors=9AFF7E44/9AFF7EFF/9AFF7EFF, duration=0.16, easeInOut=False, easeVal=0\nstageOrderLight id=3, colors=FFEDBFFF/FFEDBF62/FFEDBFFF, duration=0.16, easeInOut=False, easeVal=0\nstageOrderLight id=4, colors=CC8B87FF/A599E6FF/CCBC88FF/88CC99FF/88ADCCFF, duration=0.9, easeInOut=False, easeVal=0\nstageOrderLight id=5, colors=CC8B88FF/CC8B88FF/00000000/8889CCFF/8889CCFF/00000000/CCBF88FF/CCBF88FF/00000000/8CCC88FF/8CCC88FF/00000000/88ABCCFF/88ABCCFF/00000000, duration=0.3, easeInOut=False, easeVal=0\nstageOrderLight id=6, colors=00000000/CC8B88FF/CC8B88FF/00000000/8889CCFF/8889CCFF/00000000/CCBF88FF/CCBF88FF/00000000/8CCC88FF/8CCC88FF/00000000/88ABCCFF/88ABCCFF, duration=0.3, easeInOut=False, easeVal=0\nstageOrderLight id=7, colors=FFF7DEFF/FFF7DEFF/FFF7DE72, duration=0.16, easeInOut=False, easeVal=0\nstageOrderLight id=8, colors=78514EFF/78514EFF/00000000/584F78FF/594F78FF/00000000/575639FF/57563AFF/00000000/4F7850FF/4F7851FF/00000000/4F6E78FF/4F6E78FF/00000000, duration=0.3, easeInOut=True, easeVal=0\nstageOrderLight id=9, colors=000000FF/78514FFF/78514FFF/000000FF/594F78FF/594F78FF/000000FF/57563AFF/57563AFF/000000FF/4F7851FF/4F7851FF/000000FF/4F6E78FF/4F6E78FF, duration=0.3, easeInOut=False, easeVal=0\nstageOrderLight id=10, colors=4F6E78FF/000000FF/78514FFF/78514FFF/000000FF/594F78FF/594F78FF/000000FF/57563AFF/57563AFF/000000FF/4F7851FF/4F7851FF/000000FF/4F6E78FF, duration=0.3, easeInOut=False, easeVal=0\nstageOrderLight id=11, colors=809567FF, duration=0.6, easeInOut=True, easeVal=0\nstageOrderLight id=12, colors=FFF693FF/FFF69462/FFF694FF, duration=0.35, easeInOut=True, easeVal=0\nstageOrderLight id=13, colors=35342EFF/35342EFF/35342E74, duration=0.16, easeInOut=True, easeVal=0\nstageOrderLight id=14, colors=FFFBBCFF, duration=0.63, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=32381EFF/32381E9C/32381EFF, duration=0.16, easeInOut=True, easeVal=0\n\ncameraRT cameraId=0, fxId=0\r\ncameraRT cameraId=1, fxId=0",
+      "fSecond": 86.01667
+    },
+    {
+      "sFrame": 5191,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC56\n//camera\ncamera pers=25\ncamera effect=none\ncameraOffsetY charaId=none\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0, startIntensity=0.3, intensity=0.3, startThreshold=0.46, threshold=0.46, startSoftThreshold=0.81, softThreshold=0.81, startColor=3F3F27FF, color=3F3F27FF\n\nparticleCtrl id=1, playMode=stop",
+      "fSecond": 86.51667
+    },
+    {
+      "sFrame": 5326,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncameraSV id=0, ctrl=camera, enabled=true, rectW=0.5\ncameraSV id=0, ctrl=tween, pers=16\ncameraSV id=0, effect=dof, focal=20, blur=1\ncameraSVOffsetF id=0, charaId=1, focusX=1.78, focusY=0, focusZ=2.31\n\ncameraSV id=1, ctrl=camera, enabled=true, rectX=0.5, rectW=0.5\ncameraSV id=1, ctrl=tween, pers=16\ncameraSV id=1, effect=dof, focal=21, blur=1\ncameraSVOffsetF id=1, charaId=2, focusX=0.07, focusY=0, focusZ=2.48",
+      "fSecond": 88.76667
+    },
+    {
+      "sFrame": 5431,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncameraSV id=1, ctrl=camera, enabled=true, rectW=0.5\ncameraSV id=1, ctrl=tween, pers=16\ncameraSV id=1, effect=dof, focal=17.5, blur=1\ncameraSVOffsetF id=1, charaId=2, focusX=-0.14, focusY=0, focusZ=2.4\n\ncameraSV id=2, ctrl=camera, enabled=true, rectX=0.5, rectW=0.5\ncameraSV id=2, ctrl=tween, pers=16\ncameraSV id=2, effect=dof, focal=16, blur=1\ncameraSVOffsetF id=2, charaId=3, focusX=-2.09, focusY=0, focusZ=2.4",
+      "fSecond": 90.51667
+    },
+    {
+      "sFrame": 5506,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC58\n//camera\ncameraSV id=0, ctrl=camera, enabled=false\ncameraSV id=1, ctrl=camera, enabled=false\ncameraSV id=2, ctrl=camera, enabled=false\n\ncamera pers=14.4\ncamera effect=none\ncameraOffsetF charaId=3, focusX=-2.08, focusY=0, focusZ=2.48\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0, startIntensity=0.3, intensity=0.3, startThreshold=0.46, threshold=0.46, startSoftThreshold=0.81, softThreshold=0.81, startColor=3F3F27FF, color=3F3F27FF\n",
+      "fSecond": 91.76667
+    },
+    {
+      "sFrame": 5651,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC59\n//camera\ncamera pers=9.6\ncamera effect=dof, focal=20.5, blur=1\ncameraOffsetF charaId=3, focusX=-2.12, focusY=0, focusZ=2.49",
+      "fSecond": 94.183334
+    },
+    {
+      "sFrame": 5701,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC60\n//camera\ncamera pers=14.4\ncamera effect=dof, focal=25, blur=1\ncameraOffsetF charaId=1, focusX=1.98, focusY=0, focusZ=2.57",
+      "fSecond": 95.01667
+    },
+    {
+      "sFrame": 5816,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC61\n//camera\ncamera pers=14.4\ncamera effect=dof, focal=21, blur=1\ncameraOffsetF charaId=1, focusX=1.96, focusY=0, focusZ=2.56",
+      "fSecond": 96.933334
+    },
+    {
+      "sFrame": 5896,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC62\n//camera\ncamera pers=25\ncamera effect=none\ncameraOffsetY charaId=none\n\n//stageCyalume\ncyalume animId=0, animTimeReset=true\n\nstageOrderLight id=15, colors=00000000, duration=0, easeInOut=True, easeVal=0\n",
+      "fSecond": 98.26667
+    },
+    {
+      "sFrame": 6271,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC63\n//camera\ncamera pers=9.6\ncamera effect=dof, focal=25.5, blur=1\ncameraOffsetF charaId=2, focusX=0.17, focusY=0, focusZ=3.22",
+      "fSecond": 104.51667
+    },
+    {
+      "sFrame": 6297,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncamera effect=dof, focal=23, blur=1",
+      "fSecond": 104.95
+    },
+    {
+      "sFrame": 6301,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncamera effect=dof, focal=22, blur=1",
+      "fSecond": 105.01667
+    },
+    {
+      "sFrame": 6304,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncamera effect=dof, focal=21, blur=1",
+      "fSecond": 105.066666
+    },
+    {
+      "sFrame": 6308,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncamera effect=dof, focal=20, blur=1",
+      "fSecond": 105.13333
+    },
+    {
+      "sFrame": 6331,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncamera effect=dof, focal=19.5, blur=1",
+      "fSecond": 105.51667
+    },
+    {
+      "sFrame": 6350,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncamera effect=dof, focal=18.5, blur=1",
+      "fSecond": 105.833336
+    },
+    {
+      "sFrame": 6361,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC64\n//camera\ncamera pers=16\ncamera effect=none\ncameraOffsetY charaId=none",
+      "fSecond": 106.01667
+    },
+    {
+      "sFrame": 6436,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC65\n//camera\ncamera pers=14.4\ncamera effect=dof, focal=22, blur=1\ncameraOffsetF charaId=2, focusX=0.12, focusY=0, focusZ=2.6",
+      "fSecond": 107.26667
+    },
+    {
+      "sFrame": 6560,
+      "sSamplingRate": 60,
+      "pCommandText": "//stageBase\nstageBase id=all, color=FFFFFFFF, duration=0.1, easeInOut=True, easeVal=1\n\n//stageOrderLight\nstageOrderLight id=0, colors=FFFFFFFF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=1, colors=FFFCECFF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=2, colors=9DFFA1FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=3, colors=F4FFD7FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=4, colors=EDFFC4FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=5, colors=FFFED4FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=6, colors=FFFFD5FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=7, colors=FFFBD2FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=8, colors=000000FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=9, colors=B0B0A3FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=10, colors=000000FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=11, colors=CDD9FFFF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=12, colors=E9FFD0FF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=13, colors=5B624FFF, duration=0.1, easeInOut=True, easeVal=0\nstageOrderLight id=14, colors=F4FFE3FF, duration=0.1, easeInOut=True, easeVal=0\n",
+      "fSecond": 109.333336
+    },
+    {
+      "sFrame": 6568,
+      "sSamplingRate": 60,
+      "pCommandText": "//chara\nchara id=all, color=F3F3F3FF, duration=0.8, easeInOut=False, easeVal=1\n\n//stageBase\nstageBase id=0, color=343434FF, duration=0.8, easeInOut=False, easeVal=1\nstageBase id=1, color=3C3C3CFF, duration=0.8, easeInOut=False, easeVal=1\nstageBase id=2, color=FFFFFFFF, duration=0.8, easeInOut=False, easeVal=1\nstageBase id=3, color=353535FF, duration=0.8, easeInOut=False, easeVal=1\nstageBase id=4, color=2B2B2BFF, duration=0.8, easeInOut=False, easeVal=1\n\n//stageOrderLight\nstageOrderLight id=0, colors=000000FF, duration=0.8, easeInOut=False, easeVal=0\nstageOrderLight id=1, colors=000000FF, duration=0.8, easeInOut=False, easeVal=0\nstageOrderLight id=2, colors=8CA18DFF, duration=0.8, easeInOut=False, easeVal=0\nstageOrderLight id=3, colors=000000FF, duration=0.8, easeInOut=False, easeVal=0\nstageOrderLight id=4, colors=212121FF, duration=0.8, easeInOut=False, easeVal=0\nstageOrderLight id=5, colors=000000FF, duration=0.8, easeInOut=False, easeVal=0\nstageOrderLight id=6, colors=000000FF, duration=0.8, easeInOut=False, easeVal=0\nstageOrderLight id=7, colors=000000FF, duration=0.8, easeInOut=False, easeVal=0\nstageOrderLight id=8, colors=000000FF, duration=0.8, easeInOut=False, easeVal=0\nstageOrderLight id=9, colors=000000FF, duration=0.8, easeInOut=False, easeVal=0\nstageOrderLight id=10, colors=000000FF, duration=0.8, easeInOut=False, easeVal=0\nstageOrderLight id=11, colors=393939FF, duration=0.8, easeInOut=False, easeVal=0\nstageOrderLight id=12, colors=000000FF, duration=0.8, easeInOut=False, easeVal=0\nstageOrderLight id=13, colors=000000FF, duration=0.8, easeInOut=False, easeVal=0\nstageOrderLight id=14, colors=000000FF, duration=0.8, easeInOut=False, easeVal=0",
+      "fSecond": 109.46667
+    },
+    {
+      "sFrame": 6601,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC66\n//camera\ncamera pers=11\ncamera effect=dof, focal=17.5, blur=1\ncameraOffsetF charaId=1, focusX=2.01, focusY=0, focusZ=2.6\n\n//monitor\ncameraRT cameraId=1, pers=14.4\ncameraRTOffsetF cameraId=1, charaId=3, focusX=-2.16, focusY=0, focusZ=2.63\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0, startIntensity=0.3, intensity=0.3, startThreshold=0.46, threshold=0.46, startSoftThreshold=0.81, softThreshold=0.81, startColor=272727FF, color=272727FF\n\ncyalume colorId=0, color=FFCB64FF\ncyalume colorId=1, color=EC9F00FF\ncyalume colorId=2, color=FFC03BFF\ncyalume colorId=3, color=FF9E1CFF\ncyalume colorId=4, color=FFA72FFF \ncyalume colorId=5, color=FFCB64FF\ncyalume colorId=6, color=EC9F00FF\ncyalume colorId=7, color=FFC03BFF\ncyalume colorId=8, color=FF9E1CFF\ncyalume colorId=9, color=FFA72FFF ,apply=true",
+      "fSecond": 110.01667
+    },
+    {
+      "sFrame": 6626,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC67\n//camera\ncamera pers=11\ncamera effect=dof, focal=14.5, blur=1\ncameraOffsetF charaId=3, focusX=-2.14, focusY=0, focusZ=2.63",
+      "fSecond": 110.433334
+    },
+    {
+      "sFrame": 6651,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC68\n//camera\ncamera pers=11\ncamera effect=dof, focal=21, blur=1\ncameraOffsetF charaId=2, focusX=-0.08, focusY=0, focusZ=2.59",
+      "fSecond": 110.85
+    },
+    {
+      "sFrame": 6675,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC69\n//camera\ncamera pers=30\ncamera effect=none\ncameraOffsetY charaId=none",
+      "fSecond": 111.25
+    },
+    {
+      "sFrame": 6682,
+      "sSamplingRate": 60,
+      "pCommandText": "//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=2.5, startIntensity=0.3, intensity=0.5, startThreshold=0.46, threshold=0.46, startSoftThreshold=0.81, softThreshold=0.81, startColor=272727FF, color=A6743DFF\n\n//chara\nchara id=all, color=FFF4E9FF, duration=0.5, easeInOut=False, easeVal=1\n\n//stageBase\nstageBase id=all, color=FFC587FF, duration=0.5, easeInOut=True, easeVal=1\n\n//stageOrderLight\nstageOrderLight id=0, colors=FFFFFFFF, duration=0.5, easeInOut=True, easeVal=0\nstageOrderLight id=1, colors=FFE5B8FF, duration=0.5, easeInOut=True, easeVal=0\nstageOrderLight id=2, colors=B0FFB0FF, duration=0.5, easeInOut=True, easeVal=0\nstageOrderLight id=3, colors=FFC052FF, duration=0.5, easeInOut=True, easeVal=0\nstageOrderLight id=4, colors=FFC37BFF, duration=0.5, easeInOut=True, easeVal=0\nstageOrderLight id=5, colors=FFDE8FFF, duration=0.5, easeInOut=True, easeVal=0\nstageOrderLight id=6, colors=FFC1ACFF, duration=0.5, easeInOut=True, easeVal=0\nstageOrderLight id=7, colors=FFDA8AFF, duration=0.5, easeInOut=True, easeVal=0\nstageOrderLight id=8, colors=956648FF, duration=0.6, easeInOut=True, easeVal=0\nstageOrderLight id=9, colors=6E5B36FF, duration=0.6, easeInOut=True, easeVal=0\nstageOrderLight id=10, colors=956748FF, duration=0.5, easeInOut=True, easeVal=0\nstageOrderLight id=11, colors=CCBD8BFF, duration=0.5, easeInOut=True, easeVal=0\nstageOrderLight id=12, colors=FFB652FF, duration=0.5, easeInOut=True, easeVal=0\nstageOrderLight id=13, colors=4A3200FF, duration=0.6, easeInOut=True, easeVal=0\nstageOrderLight id=14, colors=FF7619FF, duration=0.5, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=2F2217FF, duration=1.2, easeInOut=True, easeVal=0\n",
+      "fSecond": 111.36667
+    },
+    {
+      "sFrame": 6825,
+      "sSamplingRate": 60,
+      "pCommandText": "\n//stageBase\nstageBase id=0, color=785530FF, duration=0.4, easeInOut=True, easeVal=1\nstageBase id=1, color=785530FF, duration=0.4, easeInOut=True, easeVal=1\nstageBase id=2, color=FFFFFFFF, duration=0.4, easeInOut=True, easeVal=1\nstageBase id=3, color=785530FF, duration=0.4, easeInOut=True, easeVal=1\nstageBase id=4, color=785530FF, duration=0.4, easeInOut=True, easeVal=1\n\n//stageOrderLight\nstageOrderLight id=0, colors=FFFFFFFF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=1, colors=FFE5B880/FFE5B8FF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=2, colors=B0FFB0FF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=3, colors=FFBB46FF/FFBB467B, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=4, colors=FFB75C9B/FFB75CFF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=5, colors=FFCD57FF/FFCD5778/FFCD57FF, duration=0.64, easeInOut=True, easeVal=0\nstageOrderLight id=6, colors=FFCE58FF/FFCE58FF/FFCE589B, duration=0.64, easeInOut=True, easeVal=0\nstageOrderLight id=7, colors=FFDB8AFF/FFDB8ADD/FFDB8AFF, duration=0.24, easeInOut=True, easeVal=0\nstageOrderLight id=8, colors=866F5FFF/866F5FFF/866F5F00, duration=0.64, easeInOut=True, easeVal=0\nstageOrderLight id=9, colors=7F6E5100/7F6E51FF/7F6E51FF, duration=0.64, easeInOut=True, easeVal=0\nstageOrderLight id=10, colors=A58B79FF/A58B7900/A58B79FF, duration=0.64, easeInOut=True, easeVal=0\nstageOrderLight id=11, colors=B6D88FFF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=12, colors=FFCB83FF/FFCB83A9, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=13, colors=32260DFF/32260D89/32260DFF, duration=0.64, easeInOut=True, easeVal=0\nstageOrderLight id=14, colors=FFCC80FF/FFCC807B/FFCC80FF, duration=0.64, easeInOut=True, easeVal=0\n\n",
+      "fSecond": 113.75
+    },
+    {
+      "sFrame": 6836,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC70\n//camera\ncamera pers=16\ncamera effect=none\ncameraOffsetY charaId=none\n\n//cameraRT fxId=0\ncameraRT cameraId=1, fxId=0, mode=static\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0, startIntensity=0.6, intensity=0.6, startThreshold=0.42, threshold=0.42, startSoftThreshold=0.88, softThreshold=0.88, startColor=592F00FF, color=592F00FF\n\ncameraRT cameraId=0, fxId=3\r\ncameraRT cameraId=1, fxId=3\n\nstageOrderLight id=15, colors=632F00FF/632F009C/632F00FF, duration=0.18, easeInOut=True, easeVal=0\n",
+      "fSecond": 113.933334
+    },
+    {
+      "sFrame": 6931,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC71\n//camera\ncamera pers=16\ncamera effect=dof, focal=19, blur=1\ncameraOffsetF charaId=3, focusX=-0.37, focusY=0, focusZ=3.39\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=3, firstReduction=true, duration=0, startIntensity=0.5, intensity=0.5, startThreshold=0.42, threshold=0.42, startSoftThreshold=0.88, softThreshold=0.88, startColor=592F00FF, color=592F00FF\n",
+      "fSecond": 115.51667
+    },
+    {
+      "sFrame": 7006,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC72\n//camera\ncamera pers=11\ncamera effect=dof, focal=27.5, blur=1\ncameraOffsetF charaId=1, focusX=1.9, focusY=0, focusZ=2.8",
+      "fSecond": 116.76667
+    },
+    {
+      "sFrame": 7051,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncamera effect=dof, focal=25, blur=1",
+      "fSecond": 117.51667
+    },
+    {
+      "sFrame": 7075,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncamera effect=dof, focal=23.5, blur=1",
+      "fSecond": 117.916664
+    },
+    {
+      "sFrame": 7095,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncamera effect=dof, focal=22, blur=1",
+      "fSecond": 118.25
+    },
+    {
+      "sFrame": 7111,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC73\n//camera\ncamera pers=11\ncamera effect=dof, focal=18.5, blur=1\ncameraOffsetF charaId=2, focusX=-2.01, focusY=0, focusZ=2.62\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=3, firstReduction=true, duration=0, startIntensity=0.45, intensity=0.45, startThreshold=0.61, threshold=0.61, startSoftThreshold=0.81, softThreshold=0.81, startColor=592F00FF, color=592F00FF\n",
+      "fSecond": 118.51667
+    },
+    {
+      "sFrame": 7186,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC74\n//camera\ncamera pers=16\ncamera effect=none\ncameraOffsetF charaId=3, focusX=-0.04, focusY=0, focusZ=3.86\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=3, firstReduction=true, duration=0, startIntensity=0.6, intensity=0.6, startThreshold=0.42, threshold=0.42, startSoftThreshold=0.88, softThreshold=0.88, startColor=592F00FF, color=592F00FF\n",
+      "fSecond": 119.76667
+    },
+    {
+      "sFrame": 7361,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncameraSV id=0, ctrl=camera, enabled=true, rectW=0.34\ncameraSV id=0, ctrl=tween, pers=11\ncameraSV id=0, effect=dof, focal=18, blur=1\ncameraSVOffsetF id=0, charaId=1, focusX=1.95, focusY=0, focusZ=3.38\n\ncameraSV id=2, ctrl=camera, enabled=true, rectX=0.34, rectW=0.34\ncameraSV id=2, ctrl=tween, pers=11\ncameraSV id=2, effect=none\ncameraSVOffsetF id=2, charaId=3, focusX=0.08, focusY=0, focusZ=4.03\n\ncameraSV id=1, ctrl=camera, enabled=true, rectX=0.68, rectW=0.34\ncameraSV id=1, ctrl=tween, pers=14.4\ncameraSV id=1, effect=dof, focal=16, blur=1\ncameraSVOffsetF id=1, charaId=2, focusX=-1.9, focusY=0, focusZ=3.25\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0, startIntensity=0.47, intensity=0.47, startThreshold=0.4, threshold=0.4, startSoftThreshold=0.88, softThreshold=0.88, startColor=592F00FF, color=592F00FF\n",
+      "fSecond": 122.683334
+    },
+    {
+      "sFrame": 7466,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC76\n//camera\ncameraSV id=0, ctrl=camera, enabled=false\ncameraSV id=1, ctrl=camera, enabled=false\ncameraSV id=2, ctrl=camera, enabled=false\n\ncamera pers=16\ncamera effect=none\ncameraOffsetF charaId=3, focusX=-0.14, focusY=0, focusZ=4\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=3, firstReduction=true, duration=0, startIntensity=0.45, intensity=0.45, startThreshold=0.61, threshold=0.61, startSoftThreshold=0.81, softThreshold=0.81, startColor=592F00FF, color=592F00FF\n",
+      "fSecond": 124.433334
+    },
+    {
+      "sFrame": 7510,
+      "sSamplingRate": 60,
+      "pCommandText": "//stageCyalume\ncyalume animId=2, animTimeReset=true",
+      "fSecond": 125.166664
+    },
+    {
+      "sFrame": 7561,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC77\n//camera\ncamera pers=16\ncamera effect=none\ncameraOffsetY charaId=none\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0, startIntensity=0.45, intensity=0.45, startThreshold=0.61, threshold=0.61, startSoftThreshold=0.81, softThreshold=0.81, startColor=592F00FF, color=592F00FF\n\nstageOrderLight id=15, colors=2E1500FF, duration=0, easeInOut=True, easeVal=0\n",
+      "fSecond": 126.01667
+    },
+    {
+      "sFrame": 7579,
+      "sSamplingRate": 60,
+      "pCommandText": "stageOrderLight id=0, colors=FFFFFFFF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=1, colors=FFCA68FF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=2, colors=FF8744FF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=3, colors=FF8F00FF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=4, colors=FFB95FFF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=5, colors=CF7D26FF, duration=0.64, easeInOut=True, easeVal=0\nstageOrderLight id=6, colors=CF7D25FF, duration=0.64, easeInOut=True, easeVal=0\nstageOrderLight id=7, colors=FFC136FF, duration=0.24, easeInOut=True, easeVal=0\nstageOrderLight id=8, colors=000000FF, duration=0.64, easeInOut=True, easeVal=0\nstageOrderLight id=9, colors=000000FF, duration=0.64, easeInOut=True, easeVal=0\nstageOrderLight id=10, colors=000000FF, duration=0.64, easeInOut=True, easeVal=0\nstageOrderLight id=11, colors=B6D88FFF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=12, colors=FFC372FF, duration=1, easeInOut=True, easeVal=0\nstageOrderLight id=13, colors=211808FF, duration=0.64, easeInOut=True, easeVal=0\nstageOrderLight id=14, colors=D6A137FF, duration=0.64, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=160B00FF, duration=0.64, easeInOut=False, easeVal=1",
+      "fSecond": 126.316666
+    },
+    {
+      "sFrame": 7629,
+      "sSamplingRate": 60,
+      "pCommandText": "//stageOrderLight\nstageOrderLight id=3, colors=FFF6EBFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=4, colors=FFF6EAFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=7, colors=FFFCF6FF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=12, colors=FFE9CBFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=14, colors=FFE9BCFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=553E2BFF, duration=0.2, easeInOut=True, easeVal=0\n",
+      "fSecond": 127.15
+    },
+    {
+      "sFrame": 7650,
+      "sSamplingRate": 60,
+      "pCommandText": "//stageOrderLight\nstageOrderLight id=3, colors=FF8F00FF, duration=1, easeInOut=True, easeVal=1\nstageOrderLight id=4, colors=FFB95FFF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=7, colors=FFC136FF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=12, colors=FFC372FF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=14, colors=D6A137FF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=15, colors=160B00FF, duration=1, easeInOut=False, easeVal=1",
+      "fSecond": 127.5
+    },
+    {
+      "sFrame": 7717,
+      "sSamplingRate": 60,
+      "pCommandText": "//stageOrderLight\nstageOrderLight id=3, colors=FFF6EBFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=4, colors=FFF6EAFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=7, colors=FFFCF6FF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=12, colors=FFE9CBFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=14, colors=FFE9BCFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=553E2BFF, duration=0.2, easeInOut=True, easeVal=0\n",
+      "fSecond": 128.61667
+    },
+    {
+      "sFrame": 7731,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC78\n//camera\ncamera pers=11\ncamera effect=dof, focal=23.5, blur=1\ncameraOffsetF charaId=1, focusX=2.4, focusY=0, focusZ=3.12\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0, startIntensity=0.47, intensity=0.47, startThreshold=0.4, threshold=0.4, startSoftThreshold=0.88, softThreshold=0.88, startColor=592F00FF, color=592F00FF\n",
+      "fSecond": 128.85
+    },
+    {
+      "sFrame": 7735,
+      "sSamplingRate": 60,
+      "pCommandText": "//stageOrderLight\nstageOrderLight id=3, colors=FF8F00FF, duration=1, easeInOut=True, easeVal=1\nstageOrderLight id=4, colors=FFB95FFF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=7, colors=FFC136FF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=12, colors=FFC372FF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=14, colors=D6A137FF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=15, colors=160B00FF, duration=1, easeInOut=False, easeVal=1",
+      "fSecond": 128.91667
+    },
+    {
+      "sFrame": 7807,
+      "sSamplingRate": 60,
+      "pCommandText": "//stageOrderLight\nstageOrderLight id=3, colors=FFF6EBFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=4, colors=FFF6EAFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=7, colors=FFFCF6FF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=12, colors=FFE9CBFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=14, colors=FFE9BCFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=553E2BFF, duration=0.2, easeInOut=True, easeVal=0\n",
+      "fSecond": 130.11667
+    },
+    {
+      "sFrame": 7819,
+      "sSamplingRate": 60,
+      "pCommandText": "//stageOrderLight\nstageOrderLight id=3, colors=FF8F00FF, duration=1, easeInOut=True, easeVal=1\nstageOrderLight id=4, colors=FFB95FFF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=7, colors=FFC136FF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=12, colors=FFC372FF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=14, colors=D6A137FF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=15, colors=160B00FF, duration=1, easeInOut=False, easeVal=1",
+      "fSecond": 130.31667
+    },
+    {
+      "sFrame": 7841,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncameraSV id=0, ctrl=camera, enabled=true, rectW=0.5\ncameraSV id=0, ctrl=tween, pers=14.4\ncameraSV id=0, effect=dof, focal=23.5, blur=1\ncameraSVOffsetF id=0, charaId=1, focusX=1.98, focusY=0, focusZ=2.94\n\ncameraSV id=1, ctrl=camera, enabled=true, rectX=0.5, rectW=0.5\ncameraSV id=1, ctrl=tween, pers=14.4\ncameraSV id=1, effect=dof, focal=22.5, blur=1\ncameraSVOffsetF id=1, charaId=2, focusX=-0.4, focusY=0, focusZ=2.87",
+      "fSecond": 130.68333
+    },
+    {
+      "sFrame": 7907,
+      "sSamplingRate": 60,
+      "pCommandText": "//stageOrderLight\nstageOrderLight id=3, colors=FFF6EBFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=4, colors=FFF6EAFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=7, colors=FFFCF6FF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=12, colors=FFE9CBFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=14, colors=FFE9BCFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=553E2BFF, duration=0.2, easeInOut=True, easeVal=0\n",
+      "fSecond": 131.78334
+    },
+    {
+      "sFrame": 7920,
+      "sSamplingRate": 60,
+      "pCommandText": "//stageOrderLight\nstageOrderLight id=3, colors=FF8F00FF, duration=1, easeInOut=True, easeVal=1\nstageOrderLight id=4, colors=FFB95FFF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=7, colors=FFC136FF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=12, colors=FFC372FF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=14, colors=D6A137FF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=15, colors=160B00FF, duration=1, easeInOut=False, easeVal=1",
+      "fSecond": 132.0
+    },
+    {
+      "sFrame": 7946,
+      "sSamplingRate": 60,
+      "pCommandText": "//camera\ncameraSV id=1, ctrl=camera, enabled=true, rectW=0.5\ncameraSV id=1, ctrl=tween, pers=14.4\ncameraSV id=1, effect=dof, focal=24.5, blur=1\ncameraSVOffsetF id=1, charaId=2, focusX=0.16, focusY=0, focusZ=2.96\n\ncameraSV id=2, ctrl=camera, enabled=true, rectX=0.5, rectW=0.5\ncameraSV id=2, ctrl=tween, pers=14.4\ncameraSV id=2, effect=dof, focal=26.5, blur=1\ncameraSVOffsetF id=2, charaId=3, focusX=-2.15, focusY=0, focusZ=3.12",
+      "fSecond": 132.43333
+    },
+    {
+      "sFrame": 7998,
+      "sSamplingRate": 60,
+      "pCommandText": "//stageOrderLight\nstageOrderLight id=3, colors=FFF6EBFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=4, colors=FFF6EAFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=7, colors=FFFCF6FF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=12, colors=FFE9CBFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=14, colors=FFE9BCFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=553E2BFF, duration=0.2, easeInOut=True, easeVal=0\n",
+      "fSecond": 133.3
+    },
+    {
+      "sFrame": 8011,
+      "sSamplingRate": 60,
+      "pCommandText": "//stageOrderLight\nstageOrderLight id=3, colors=FF8F00FF, duration=1, easeInOut=True, easeVal=1\nstageOrderLight id=4, colors=FFB95FFF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=7, colors=FFC136FF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=12, colors=FFC372FF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=14, colors=D6A137FF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=15, colors=160B00FF, duration=1, easeInOut=False, easeVal=1",
+      "fSecond": 133.51666
+    },
+    {
+      "sFrame": 8046,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC81\n//camera\ncameraSV id=0, ctrl=camera, enabled=false\ncameraSV id=1, ctrl=camera, enabled=false\ncameraSV id=2, ctrl=camera, enabled=false\n\ncamera pers=35\ncamera effect=none\ncameraOffsetY charaId=none\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0, startIntensity=0.49, intensity=0.49, startThreshold=0.43, threshold=0.43, startSoftThreshold=0.81, softThreshold=0.81, startColor=765B3CFF, color=765B3CFF\n\nstageOrderLight id=15, colors=160F09FF, duration=0, easeInOut=False, easeVal=1",
+      "fSecond": 134.1
+    },
+    {
+      "sFrame": 8095,
+      "sSamplingRate": 60,
+      "pCommandText": "//stageOrderLight\nstageOrderLight id=3, colors=FFF6EBFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=4, colors=FFF6EAFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=7, colors=FFFCF6FF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=12, colors=FFE9CBFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=14, colors=FFE9BCFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=3D2D20FF, duration=0.2, easeInOut=True, easeVal=0\n",
+      "fSecond": 134.91667
+    },
+    {
+      "sFrame": 8108,
+      "sSamplingRate": 60,
+      "pCommandText": "//stageOrderLight\nstageOrderLight id=3, colors=FF8F00FF, duration=1, easeInOut=True, easeVal=1\nstageOrderLight id=4, colors=FFB95FFF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=7, colors=FFC136FF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=12, colors=FFC372FF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=14, colors=D6A137FF, duration=1, easeInOut=False, easeVal=1\nstageOrderLight id=15, colors=160B00FF, duration=1, easeInOut=False, easeVal=1",
+      "fSecond": 135.13333
+    },
+    {
+      "sFrame": 8141,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC82\n//camera\ncamera pers=11\ncamera effect=dof, focal=22, blur=1\ncameraOffsetF charaId=2, focusX=-0.01, focusY=0, focusZ=2.81\n\n//cameraBloom\ncameraBloom enabled=true, samplingCount=3, firstReduction=true, duration=0, startIntensity=0.45, intensity=0.45, startThreshold=0.5, threshold=0.5, startSoftThreshold=0.81, softThreshold=0.81, startColor=765B3CFF, color=765B3CFF\n",
+      "fSecond": 135.68333
+    },
+    {
+      "sFrame": 8221,
+      "sSamplingRate": 60,
+      "pCommandText": "//CC83\n//camera\ncamera pers=40\ncamera effect=none\ncameraOffsetY charaId=none",
+      "fSecond": 137.01666
+    },
+    {
+      "sFrame": 8240,
+      "sSamplingRate": 60,
+      "pCommandText": "//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0.2, startIntensity=0.45, intensity=0.9, startThreshold=0.61, threshold=0.45, startSoftThreshold=0.81, softThreshold=0.81, startColor=592F00FF, color=4B453EFF\n\n//chara\nchara id=all, color=FFFFFFFF, duration=0.2, easeInOut=False, easeVal=1\n\n//stageBase\nstageBase id=all, color=FFE1C1FF, duration=0.2, easeInOut=True, easeVal=1\n\n//stageOrderLight\nstageOrderLight id=0, colors=FFFFFFFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=1, colors=FFE4B3FF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=2, colors=D6FFB8FF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=3, colors=FFC67EFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=4, colors=FFC885FF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=5, colors=FFD6ACFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=6, colors=FFDAB3FF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=7, colors=FFD693FF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=8, colors=8C8575FF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=9, colors=8C8575FF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=10, colors=8C8575FF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=11, colors=B6D88FFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=12, colors=FFE9CBFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=13, colors=221F1AFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=14, colors=FFE9BCFF, duration=0.2, easeInOut=True, easeVal=0\nstageOrderLight id=15, colors=55483CFF, duration=0.2, easeInOut=True, easeVal=0\n",
+      "fSecond": 137.33333
+    },
+    {
+      "sFrame": 8275,
+      "sSamplingRate": 60,
+      "pCommandText": "//stageBase\nstageBase id=all, color=8A7866FF, duration=0.8, easeInOut=False, easeVal=1\nstageBase id=2, color=FFFFFFFF, duration=0.8, easeInOut=False, easeVal=1\n\n//stageOrderLight\nstageOrderLight id=15, colors=55483C00, duration=0.8, easeInOut=False, easeVal=1\n",
+      "fSecond": 137.91667
+    },
+    {
+      "sFrame": 8277,
+      "sSamplingRate": 60,
+      "pCommandText": "//cameraBloom\ncameraBloom enabled=true, samplingCount=6, firstReduction=true, duration=0.8, startIntensity=0.9, intensity=0.45, startThreshold=0.45, threshold=0.45, startSoftThreshold=0.81, softThreshold=0.81, startColor=592F00FF, color=4B453EFF\n",
+      "fSecond": 137.95
+    },
+    {
+      "sFrame": 8580,
+      "sSamplingRate": 60,
+      "pCommandText": "//END",
+      "fSecond": 143.0
+    }
+  ]
+}
